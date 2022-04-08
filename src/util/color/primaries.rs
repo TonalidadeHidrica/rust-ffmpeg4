@@ -63,7 +63,7 @@ impl Into<AVColorPrimaries> for Primaries {
             Primaries::SMPTE428 => AVCOL_PRI_SMPTE428,
             Primaries::SMPTE431 => AVCOL_PRI_SMPTE431,
             Primaries::SMPTE432 => AVCOL_PRI_SMPTE432,
-            Primaries::JEDEC_P22 => AVCOL_PRI_JEDEC_P22,
+            Primaries::JEDEC_P22 => AVColorPrimaries::AVCOL_PRI_JEDEC_P22,
         }
     }
 }
